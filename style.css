@@ -1,11 +1,54 @@
-/* p {
+/*.image {
+  width: 100%;
+  height: 100%;
+  background-image: url('../website/fog-7760708_1920.jpg');
+  background-position: center;
+}
+a {
+  text-decoration: none;
   color: green;
 }
-
-button {
-  color: aqua;
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+p {
+  margin: 0;
 }
 
-li {
-  list-style-type: none;
-} */
+.image {
+  background: url('https://pixabay.com/get/gf96526b3746a63fd4a369270c31c73e213e980390de3ab57e36bc51ffb72cdfd75b77ca6210825ec16dd5b30a1bec96f6ce868a81fa627611f786a2a91ceb2cb_1920.jpg')
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+#sentence {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#sentence h1 {
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+#sentence a:hover {
+  background-color: darkolivegreen;
+}
